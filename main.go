@@ -320,7 +320,7 @@ func hitungDurasi(startDate, endDate string) string {
 	if durationYears > 1 {
 		duration = strconv.Itoa(durationYears) + " Tahun"
 	} else if durationYears > 0 {
-		duration = strconv.Itoa(durationYears) + "Tahun"
+		duration = strconv.Itoa(durationYears) + " Tahun"
 	} else {
 		if durationMonths > 1 {
 			duration = strconv.Itoa(durationMonths) + " Bulan"
@@ -328,9 +328,9 @@ func hitungDurasi(startDate, endDate string) string {
 			duration = strconv.Itoa(durationMonths) + " Bulan"
 		} else {
 			if durationWeeks > 1 {
-				duration = strconv.Itoa(durationWeeks) + "Minggu"
+				duration = strconv.Itoa(durationWeeks) + " Minggu"
 			} else if durationWeeks > 0 {
-				duration = strconv.Itoa(durationWeeks) + "Minggu"
+				duration = strconv.Itoa(durationWeeks) + " Minggu"
 			} else {
 				if durationDays > 1 {
 					duration = strconv.Itoa(durationDays) + " Hari"
