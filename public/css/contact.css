@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;;
+}
+
+
+
+.container-form {
+    width: 450px;
+}
+
+textarea {
+    height: 150px;
+    resize: none !important;
+}
+
+@media only screen and (max-width: 550px) {
+
+    form {
+        margin: 20px;
+    }
+
+
+    .button-submit {
+        width: 120px;
+    }
+
+}
